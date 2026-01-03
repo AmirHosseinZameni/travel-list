@@ -1,6 +1,6 @@
 export default function Item({ item, onDeleteItems, onToggleItems }) {
   return (
-    <li key={item.id}>
+    <li>
       <input
         type="checkbox"
         value={item.packed}
